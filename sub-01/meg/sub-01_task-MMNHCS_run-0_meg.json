@@ -1,0 +1,24 @@
+{
+    "TaskName": "MMNHCS",
+    "Manufacturer": "Elekta",
+    "PowerLineFrequency": "n/a",
+    "SamplingFrequency": 250.0,
+    "SoftwareFilters": {
+        "SpatialCompensation": {
+            "GradientOrder": 0
+        }
+    },
+    "RecordingDuration": 900.796,
+    "RecordingType": "continuous",
+    "DewarPosition": "n/a",
+    "DigitizedLandmarks": true,
+    "DigitizedHeadPoints": false,
+    "MEGChannelCount": 241,
+    "MEGREFChannelCount": 23,
+    "EEGChannelCount": 64,
+    "EOGChannelCount": 1,
+    "ECGChannelCount": 1,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 7,
+    "TriggerChannelCount": 2
+}
