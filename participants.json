@@ -1,20 +1,31 @@
-participant_id	age	sex	hand	weight	height
-sub-01	24	M	n/a	n/a	n/a
-sub-02	23	M	n/a	n/a	n/a
-sub-04	23	M	n/a	n/a	n/a
-sub-05	22	F	n/a	n/a	n/a
-sub-06	22	F	n/a	n/a	n/a
-sub-07	24	F	n/a	n/a	n/a
-sub-08	22	F	n/a	n/a	n/a
-sub-09	27	M	n/a	n/a	n/a
-sub-10	20	M	n/a	n/a	n/a
-sub-11	21	F	n/a	n/a	n/a
-sub-12	20	M	n/a	n/a	n/a
-sub-14	22	M	n/a	n/a	n/a
-sub-15	22	F	n/a	n/a	n/a
-sub-16	21	F	n/a	n/a	n/a
-sub-17	22	F	n/a	n/a	n/a
-sub-18	23	M	n/a	n/a	n/a
-sub-19	24	M	n/a	n/a	n/a
-sub-20	23	F	n/a	n/a	n/a
-sub-21	20	F	n/a	n/a	n/a
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    
+    "species": {
+        "Description": " A binomial species name from the NCBI Taxonomy"
+    },
+    
+        
+    
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "F": "female",
+            "M": "male"
+        }
+    },
+    "handedness": {
+        "Description": "Handedness of the participant",
+        "Levels": {
+            "R": "right",
+            "L": "left",
+            "A": "ambidextrous"
+        }
+    }
+}
